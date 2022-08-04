@@ -5,6 +5,8 @@ const env = process.env;
 export const JWT = {
   ACCESS_SECRET: env.JWT_ACCESS_SECRET,
   REFRESH_SECRET: env.REFRESH_SECRET,
+  TTL_ACCESS: env.JWT_TTL_ACCESS,
+  TTL_REFRESH: env.JWT_TTL_REFRESH,
 };
 
 export const DB_CONFIG = {

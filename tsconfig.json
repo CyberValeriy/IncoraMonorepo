@@ -21,5 +21,6 @@
       "@app/jsonwebtoken": ["libs/jsonwebtoken/src"],
       "@app/jsonwebtoken/*": ["libs/jsonwebtoken/src/*"]
     }
-  }
+  },
+  "exclude": ["node_modules", "dist"]
 }

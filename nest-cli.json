@@ -3,9 +3,10 @@
   "collection": "@nestjs/schematics",
   "sourceRoot": "apps/mailer/src",
   "monorepo": true,
-  "root": "apps/mailer",
+  "root": "app/mailer",
   "compilerOptions": {
-    "webpack": false
+    "webpack": false,
+    "tsConfigPath": "apps/mailer/tsconfig.app.json"
   },
   "projects": {
     "mailer": {
